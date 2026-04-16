@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+*secrets.toml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Note: If your .keras or .pkl files are larger than 100MB, 
+# you will need to use Git LFS (Large File Storage) to push them to GitHub.
+# If so, uncomment the following lines and set up Git LFS:
+# *.keras
+# *.pkl
